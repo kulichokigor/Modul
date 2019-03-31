@@ -303,3 +303,49 @@ footer .conteiner{
 	justify-content: space-between;
 	align-items: center;
 }
+
+/*adapt*/
+@media(max-width: 650px){
+	.second-block .conteiner{
+		flex-flow:column wrap;
+	}
+	.second-block-left{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.second-block-right{
+		width: 100%;
+	}
+	.third-block .conteiner{
+		flex-flow:column wrap;
+	}
+	.third-block-content-1{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.third-block-content-2{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.third-block-content-3{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media(max-width: 363px){
+	input[type="email"]{
+		width: 185px;
+	}
+	input[type="submit"]{
+		width: 185px;
+	}
+	.second-block-right-item form{
+		margin: 0;
+	}
+}
