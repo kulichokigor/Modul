@@ -338,6 +338,11 @@ footer .conteiner{
 		margin-left: 0;
 	}
 }
+@media(max-width: 400px){
+	.first-block-item div:nth-child(3){
+		font-size: 25px;
+	}
+}
 @media(max-width: 363px){
 	input[type="email"]{
 		width: 185px;
