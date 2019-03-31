@@ -346,6 +346,7 @@ footer .conteiner{
 @media(max-width: 363px){
 	input[type="email"]{
 		width: 185px;
+		margin-bottom: 10px;
 	}
 	input[type="submit"]{
 		width: 185px;
